@@ -12,10 +12,6 @@ class Messages extends React.Component {
         this.sendMessage = this.sendMessage.bind(this);
     }
 
-    componentDidUpdate() {
-        console.log(this.props);
-    }
-
     updateMessage = (evt) => {
         this.setState({message: evt.target.value});
     }

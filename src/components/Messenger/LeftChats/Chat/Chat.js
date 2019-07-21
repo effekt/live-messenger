@@ -15,7 +15,6 @@ class Chat extends React.Component {
     async componentDidMount() {
         const user = await UserService.getUser();
         this.setState({ user: user.data.results[0] });
-        console.log(this.props);
     }
 
     changeChat() {
