@@ -1,0 +1,32 @@
+.chat {
+    width: 100%;
+    line-height: 100px;
+    padding: 0 3%;
+    border-bottom: 1px solid #efefef;
+}
+
+.chat:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.chat-name {
+    text-transform: capitalize;
+    margin-left: 65px;
+}
+
+.chat-avatar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+
+.chat-active {
+    background-color: #f0f0f0;
+}
+
+.chat-inactive {
+    background-color: #fafafa;
+}

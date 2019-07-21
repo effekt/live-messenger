@@ -1,0 +1,53 @@
+.messages {
+    width: 100%;
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+
+.messages-container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+.send-message {
+    align-self: flex-end;
+    border-top: 1px;
+    height: 100px;
+    width: 100%;
+    padding: 14px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.message-button {
+    margin-left: 14px;
+}
+
+.message-them {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    max-width: 80%;
+    margin: 14px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    padding: 14px;
+    float: left;
+}
+
+.message-me {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    max-width: 80%;
+    margin: 14px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 14px;
+    display: block;
+    float: right;
+}
+
+.clear-fix {
+    clear: both;
+}
